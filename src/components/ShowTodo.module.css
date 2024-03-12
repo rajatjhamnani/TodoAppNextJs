@@ -1,0 +1,24 @@
+.tab {
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 20px;
+  border: 5px solid grey;
+  width: 650px;
+  border-radius: 8px;
+  table-layout: fixed;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.tab th,
+.tab td {
+  padding: 10px;
+}
+
+.tab th {
+  background-color: #f0f0f0;
+}
+
+.tab tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
